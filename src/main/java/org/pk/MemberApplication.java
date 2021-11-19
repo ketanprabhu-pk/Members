@@ -1,11 +1,11 @@
 package org.pk;
 
 import org.apache.log4j.Logger;
-import org.pk.log.Log;
-import org.pk.readFile.ReadFile;
-import org.pk.member.Members;
+import org.pk.dto.MembersDTO;
+import org.pk.util.readFile.ReadFile;
 import org.pk.display.Display;
-import java.util.List;
+
+import java.util.HashMap;
 
 public class MemberApplication {
 
@@ -13,17 +13,17 @@ public class MemberApplication {
     /* Get actual class name to be printed on */
     static Logger log = Logger.getLogger(MemberApplication.class);
     public MemberApplication(String fileName) {
-        new Log();
         this.fileName = fileName;
     }
 
     public void run(){
         log.info("MemberApplication start");
         ReadFile readFile = new ReadFile(fileName);
-        List<Members> members = readFile.readFile();
+//        HashMap<String,HashMap<String,Object>> members = readFile.readFile();
+        HashMap<String, MembersDTO> member = readFile.readFile();
         log.info("members Read done");
         log.info("Display start");
-        Display d = new Display(members);
+        Display d = new Display(member);
         d.run();
         log.info("Display done");
     }

@@ -1,33 +1,31 @@
 package org.pk.display;
 
 import org.apache.log4j.Logger;
-import org.pk.Main;
-import org.pk.log.Log;
-import org.pk.writeRecords.WriteRecords;
-import org.pk.member.Members;
-import java.util.Comparator;
+import org.pk.dto.MembersDTO;
+import org.pk.util.writeRecords.WriteRecords;
+
 import java.util.*;
-import java.util.stream.Collectors;
+import java.util.concurrent.atomic.AtomicInteger;
 
 import static java.lang.Integer.parseInt;
 
 public class Display {
+
     /* Get actual class name to be printed on */
     static Logger log = Logger.getLogger(Display.class.getName());
-    private List<Members> members;
+    private HashMap<String, MembersDTO> members;
     Scanner sc = new Scanner(System.in); // Scanner class for user input
 
-    public Display(List<Members> members) {
+    public Display(HashMap<String, MembersDTO>  members) {
         this.members = members;
-        new Log();
     }
 
     public void run(){
         int i = 1;
         while(i != 0){
             System.out.println("\n1. Display all members");
-            System.out.println("2. Display members with preferred location");
-            System.out.println("3. Display members with a particular user code");
+            System.out.println("2. Display members with a particular user code");
+            System.out.println("3. Display members with preferred location");
             System.out.println("4. Display members who has completed maximum jobs.");
             System.out.println("5. Write records of remote job");
             System.out.println("0. Exit");
@@ -39,10 +37,10 @@ public class Display {
                     displayMembers();
                     break;
                 case 2:
-                    getMembersWithPreferredLocation();
+                    getMembersWithUserCode();
                     break;
                 case 3:
-                    getMembersWithUserCode();
+                    getMembersWithPreferredLocation();
                     break;
                 case 4:
                     getMembersWithMaxJobs();
@@ -62,12 +60,31 @@ public class Display {
     }
 
     public void displayMembers(){
-        members.sort(Comparator.comparing(Members::getName));
+//        members.sort(Comparator.comparing(Members::getName));
 //        for (Members member : members) {
 //            System.out.println(member.disp());
 //        }
         // Using lambda expression
-        System.out.println(members.stream().map(Members::disp).collect(Collectors.joining("\n")));
+//        System.out.println(members.stream().map(Members::disp).collect(Collectors.joining("\n")));
+        members.forEach((k,v) -> System.out.println(v.disp()));
+    }
+
+    private void getMembersWithUserCode() {
+//        System.out.println("Enter the user code");
+//        String userCode = sc.next();
+//        log.info("User code entered is " + userCode);
+////        for (Members member : members) {
+////            if (userCode.equals(member.getUsercode())) {
+////                System.out.println(member.disp());
+////            }
+////        }
+//        // Using lambda expression
+//        Members mem = members.stream().filter(a -> a.getUsercode().equals(userCode)).findFirst().orElse(null);
+//        if(mem != null) { System.out.println(mem.disp()); } else { System.out.println("No Members found with the user code"); }
+        System.out.println("Enter the user code");
+        String userCode = sc.next();
+        log.info("User code entered is " + userCode);
+        System.out.println(members.get(userCode).disp());
     }
 
     private void getMembersWithPreferredLocation() {
@@ -90,30 +107,27 @@ public class Display {
 //            }
 //        }
         // Using lambda expression
-        String location = "";
+        // System.out.println(members.stream().filter(a -> a.getPreferred_location().equals(finalLocation)).map(Members::disp).collect(Collectors.joining("\n")));
+        String location;
         if(type == 1) {
             location = "remote";
         }else if (type==2){
             location = "hybrid";
+        }else {
+            log.error("User entered wrong option");
+            System.out.println("Choose correct option");
+            return;
         }
         String finalLocation = location;
-        System.out.println(members.stream().filter(a -> a.getPreferred_location().equals(finalLocation)).map(Members::disp).collect(Collectors.joining("\n")));
+        members.forEach((k, v) -> {
+            if(v.getPreferred_location().equals(finalLocation)) {
+                System.out.println(v);
+            }
+        });
     }
-    private void getMembersWithUserCode() {
-        System.out.println("Enter the user code");
-        String userCode = sc.next();
-        log.info("User code entered is " + userCode);
-//        for (Members member : members) {
-//            if (userCode.equals(member.getUsercode())) {
-//                System.out.println(member.disp());
-//            }
-//        }
-        // Using lambda expression
-        Members mem = members.stream().filter(a -> a.getUsercode().equals(userCode)).findFirst().orElse(null);
-        if(mem != null) { System.out.println(mem.disp()); } else { System.out.println("No Members found with the user code"); }
-    }
+
     private void getMembersWithMaxJobs() {
-//        int max = 0;
+        AtomicInteger max= new AtomicInteger();
 //        for (Members member : members) {
 //            if (parseInt(member.getJobs_completed()) > max) {
 //                max = parseInt(member.getJobs_completed());
@@ -125,7 +139,19 @@ public class Display {
 //            }
 //        }
         // Using lambda expression
-        System.out.println(members.stream().max(Comparator.comparing(Members::getJobs_completed)).get().disp());
+//        System.out.println(members.stream().max(Comparator.comparing(Members::getJobs_completed)).get().disp());
+
+        members.forEach((k, v) -> {
+            if(parseInt(v.getJobs_completed()) > max.get()) {
+                max.set(parseInt(v.getJobs_completed()));
+                log.info("new max = " + max.get());
+            }
+        } );
+        members.forEach((k, v) -> {
+            if(parseInt(v.getJobs_completed()) == max.get()) {
+                System.out.println(v.disp());
+            }
+        } );
     }
 }
 

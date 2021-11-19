@@ -1,6 +1,6 @@
-package org.pk.member;
+package org.pk.dto;
 
-public class Members {
+public class MembersDTO {
     private String usercode;
     private String name;
     private String jobs_completed;
@@ -8,10 +8,10 @@ public class Members {
     private Boolean inactive;
     // getters/setters, custom hashcode/equals
 
-    public Members() {
+    public MembersDTO() {
     }
 
-    public Members(String usercode, String name, String jobs_completed, String preffered_location, Boolean inactive) {
+    public MembersDTO(String usercode, String name, String jobs_completed, String preffered_location, Boolean inactive) {
         this.usercode = usercode;
         this.name = name;
         this.jobs_completed = jobs_completed;

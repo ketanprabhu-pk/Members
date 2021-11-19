@@ -1,20 +1,11 @@
 package org.pk;
 
-import javafx.beans.property.Property;
 import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
-import org.pk.log.Log;
-
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.util.Properties;
 
 public class Main {
     /* Get actual class name to be printed on */
     static Logger log = Logger.getLogger(Main.class.getName());
     public static void main(String[] args) {
-        new Log();
         log.info("Start");
         String csvFile = "";
         try {

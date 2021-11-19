@@ -1,16 +1,56 @@
-2021-11-17 20:38:11 INFO  Main:18 - Start
-2021-11-17 20:38:11 INFO  Main:21 - MemberApplication start
-2021-11-17 20:38:11 INFO  Main:27 - Reading file: D:\projects\java\maven\Members/members.csv
-2021-11-17 20:38:11 INFO  Main:24 - members Read done
-2021-11-17 20:38:11 INFO  Main:25 - Display start
-2021-11-17 20:38:32 INFO  Main:65 - User code entered is abcd123
-2021-11-17 20:39:40 INFO  Main:18 - Start
-2021-11-17 20:39:40 INFO  MemberApplication:21 - MemberApplication start
-2021-11-17 20:39:40 INFO  Main:27 - Reading file: D:\projects\java\maven\Members/members.csv
-2021-11-17 20:39:40 INFO  MemberApplication:24 - members Read done
-2021-11-17 20:39:40 INFO  MemberApplication:25 - Display start
-2021-11-17 20:40:15 INFO  Main:18 - Start
-2021-11-17 20:40:15 INFO  MemberApplication:21 - MemberApplication start
-2021-11-17 20:40:15 INFO  Main:27 - Reading file: D:\projects\java\maven\Members\members.csv
-2021-11-17 20:40:15 INFO  MemberApplication:24 - members Read done
-2021-11-17 20:40:15 INFO  MemberApplication:25 - Display start
+2021-11-19 12:43:55 INFO  Main:18 - Start
+2021-11-19 12:43:55 INFO  MemberApplication:22 - MemberApplication start
+2021-11-19 12:43:55 INFO  ReadFile:23 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-19 12:43:55 INFO  MemberApplication:25 - members Read done
+2021-11-19 12:43:55 INFO  MemberApplication:26 - Display start
+2021-11-19 12:44:09 INFO  Display:33 - User entered 1
+2021-11-19 13:12:35 INFO  Main:18 - Start
+2021-11-19 13:12:35 INFO  MemberApplication:22 - MemberApplication start
+2021-11-19 13:12:35 INFO  ReadFile:23 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-19 13:12:35 INFO  MemberApplication:25 - members Read done
+2021-11-19 13:12:35 INFO  MemberApplication:26 - Display start
+2021-11-19 13:13:46 INFO  Main:18 - Start
+2021-11-19 13:13:46 INFO  MemberApplication:22 - MemberApplication start
+2021-11-19 13:13:46 INFO  ReadFile:23 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-19 13:13:46 INFO  MemberApplication:25 - members Read done
+2021-11-19 13:13:46 INFO  MemberApplication:26 - Display start
+2021-11-19 13:15:52 INFO  Main:18 - Start
+2021-11-19 13:15:52 INFO  MemberApplication:22 - MemberApplication start
+2021-11-19 13:15:52 INFO  ReadFile:23 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-19 13:15:52 INFO  MemberApplication:25 - members Read done
+2021-11-19 13:15:52 INFO  MemberApplication:26 - Display start
+2021-11-19 14:01:24 INFO  Main:18 - Start
+2021-11-19 14:01:24 INFO  MemberApplication:21 - MemberApplication start
+2021-11-19 14:01:24 INFO  ReadFile:25 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-19 14:01:24 ERROR ReadFile:37 - Error reading file: D:\projects\java\maven\Members\members.csv
+org.pk.memberDTO.Members cannot be cast to java.util.List
+2021-11-19 14:01:24 INFO  MemberApplication:25 - members Read done
+2021-11-19 14:01:24 INFO  MemberApplication:26 - Display start
+2021-11-19 14:12:44 INFO  Main:18 - Start
+2021-11-19 14:12:44 INFO  MemberApplication:21 - MemberApplication start
+2021-11-19 14:12:44 INFO  ReadFile:23 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-19 14:12:44 INFO  MemberApplication:25 - members Read done
+2021-11-19 14:12:44 INFO  MemberApplication:26 - Display start
+2021-11-19 14:12:48 INFO  Display:34 - User entered 1
+2021-11-19 14:13:12 INFO  Main:18 - Start
+2021-11-19 14:13:12 INFO  MemberApplication:21 - MemberApplication start
+2021-11-19 14:13:12 INFO  ReadFile:23 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-19 14:13:12 INFO  MemberApplication:25 - members Read done
+2021-11-19 14:13:12 INFO  MemberApplication:26 - Display start
+2021-11-19 14:13:15 INFO  Display:34 - User entered 1
+2021-11-19 14:14:46 INFO  Display:34 - User entered 2
+2021-11-19 14:14:53 INFO  Display:86 - User code entered is abcd123
+2021-11-19 16:02:50 INFO  Main:18 - Start
+2021-11-19 16:02:50 INFO  MemberApplication:21 - MemberApplication start
+2021-11-19 16:02:50 INFO  ReadFile:23 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-19 16:02:50 INFO  MemberApplication:25 - members Read done
+2021-11-19 16:02:50 INFO  MemberApplication:26 - Display start
+2021-11-19 16:38:07 INFO  Main:17 - Start
+2021-11-19 16:38:07 INFO  MemberApplication:21 - MemberApplication start
+2021-11-19 16:38:07 INFO  ReadFile:25 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-19 16:38:07 INFO  ReadFile:32 - Adding member: cbad123
+2021-11-19 16:38:07 INFO  ReadFile:32 - Adding member: abcd123
+2021-11-19 16:38:07 INFO  ReadFile:32 - Adding member: absh123
+2021-11-19 16:38:07 INFO  ReadFile:32 - Adding member: jdks123
+2021-11-19 16:38:07 INFO  MemberApplication:25 - members Read done
+2021-11-19 16:38:07 INFO  MemberApplication:26 - Display start
