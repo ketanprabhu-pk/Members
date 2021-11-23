@@ -1,56 +1,604 @@
-2021-11-19 12:43:55 INFO  Main:18 - Start
-2021-11-19 12:43:55 INFO  MemberApplication:22 - MemberApplication start
-2021-11-19 12:43:55 INFO  ReadFile:23 - Reading file: D:\projects\java\maven\Members\members.csv
-2021-11-19 12:43:55 INFO  MemberApplication:25 - members Read done
-2021-11-19 12:43:55 INFO  MemberApplication:26 - Display start
-2021-11-19 12:44:09 INFO  Display:33 - User entered 1
-2021-11-19 13:12:35 INFO  Main:18 - Start
-2021-11-19 13:12:35 INFO  MemberApplication:22 - MemberApplication start
-2021-11-19 13:12:35 INFO  ReadFile:23 - Reading file: D:\projects\java\maven\Members\members.csv
-2021-11-19 13:12:35 INFO  MemberApplication:25 - members Read done
-2021-11-19 13:12:35 INFO  MemberApplication:26 - Display start
-2021-11-19 13:13:46 INFO  Main:18 - Start
-2021-11-19 13:13:46 INFO  MemberApplication:22 - MemberApplication start
-2021-11-19 13:13:46 INFO  ReadFile:23 - Reading file: D:\projects\java\maven\Members\members.csv
-2021-11-19 13:13:46 INFO  MemberApplication:25 - members Read done
-2021-11-19 13:13:46 INFO  MemberApplication:26 - Display start
-2021-11-19 13:15:52 INFO  Main:18 - Start
-2021-11-19 13:15:52 INFO  MemberApplication:22 - MemberApplication start
-2021-11-19 13:15:52 INFO  ReadFile:23 - Reading file: D:\projects\java\maven\Members\members.csv
-2021-11-19 13:15:52 INFO  MemberApplication:25 - members Read done
-2021-11-19 13:15:52 INFO  MemberApplication:26 - Display start
-2021-11-19 14:01:24 INFO  Main:18 - Start
-2021-11-19 14:01:24 INFO  MemberApplication:21 - MemberApplication start
-2021-11-19 14:01:24 INFO  ReadFile:25 - Reading file: D:\projects\java\maven\Members\members.csv
-2021-11-19 14:01:24 ERROR ReadFile:37 - Error reading file: D:\projects\java\maven\Members\members.csv
-org.pk.memberDTO.Members cannot be cast to java.util.List
-2021-11-19 14:01:24 INFO  MemberApplication:25 - members Read done
-2021-11-19 14:01:24 INFO  MemberApplication:26 - Display start
-2021-11-19 14:12:44 INFO  Main:18 - Start
-2021-11-19 14:12:44 INFO  MemberApplication:21 - MemberApplication start
-2021-11-19 14:12:44 INFO  ReadFile:23 - Reading file: D:\projects\java\maven\Members\members.csv
-2021-11-19 14:12:44 INFO  MemberApplication:25 - members Read done
-2021-11-19 14:12:44 INFO  MemberApplication:26 - Display start
-2021-11-19 14:12:48 INFO  Display:34 - User entered 1
-2021-11-19 14:13:12 INFO  Main:18 - Start
-2021-11-19 14:13:12 INFO  MemberApplication:21 - MemberApplication start
-2021-11-19 14:13:12 INFO  ReadFile:23 - Reading file: D:\projects\java\maven\Members\members.csv
-2021-11-19 14:13:12 INFO  MemberApplication:25 - members Read done
-2021-11-19 14:13:12 INFO  MemberApplication:26 - Display start
-2021-11-19 14:13:15 INFO  Display:34 - User entered 1
-2021-11-19 14:14:46 INFO  Display:34 - User entered 2
-2021-11-19 14:14:53 INFO  Display:86 - User code entered is abcd123
-2021-11-19 16:02:50 INFO  Main:18 - Start
-2021-11-19 16:02:50 INFO  MemberApplication:21 - MemberApplication start
-2021-11-19 16:02:50 INFO  ReadFile:23 - Reading file: D:\projects\java\maven\Members\members.csv
-2021-11-19 16:02:50 INFO  MemberApplication:25 - members Read done
-2021-11-19 16:02:50 INFO  MemberApplication:26 - Display start
-2021-11-19 16:38:07 INFO  Main:17 - Start
-2021-11-19 16:38:07 INFO  MemberApplication:21 - MemberApplication start
-2021-11-19 16:38:07 INFO  ReadFile:25 - Reading file: D:\projects\java\maven\Members\members.csv
-2021-11-19 16:38:07 INFO  ReadFile:32 - Adding member: cbad123
-2021-11-19 16:38:07 INFO  ReadFile:32 - Adding member: abcd123
-2021-11-19 16:38:07 INFO  ReadFile:32 - Adding member: absh123
-2021-11-19 16:38:07 INFO  ReadFile:32 - Adding member: jdks123
-2021-11-19 16:38:07 INFO  MemberApplication:25 - members Read done
-2021-11-19 16:38:07 INFO  MemberApplication:26 - Display start
+2021-11-23 11:18:32 FATAL Display:27 - fatal err 3
+2021-11-23 11:18:32 ERROR Display:28 - error err 4
+2021-11-23 11:26:08 FATAL Display:27 - fatal err 3
+2021-11-23 11:26:08 ERROR Display:28 - error err 4
+2021-11-23 11:27:29 FATAL Display:27 - fatal err 3
+2021-11-23 11:27:29 ERROR Display:28 - error err 4
+2021-11-23 11:28:29 FATAL Display:27 - fatal err 3
+2021-11-23 11:28:29 ERROR Display:28 - error err 4
+2021-11-23 13:39:41 INFO  Main:9 - Start
+2021-11-23 13:39:41 INFO  MemberApplication:20 - MemberApplication start
+2021-11-23 13:39:41 INFO  ReadFile:27 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-23 13:39:41 INFO  ReadFile:34 - Adding member: cbad123
+2021-11-23 13:39:41 INFO  ReadFile:34 - Adding member: abcd123
+2021-11-23 13:39:41 INFO  ReadFile:34 - Adding member: absh123
+2021-11-23 13:39:41 INFO  ReadFile:34 - Adding member: jdks123
+2021-11-23 13:39:41 INFO  MemberApplication:24 - members Read done
+2021-11-23 13:39:41 INFO  MemberApplication:25 - Display start
+2021-11-23 13:39:41 INFO  Display:24 - info err 1
+2021-11-23 13:39:41 DEBUG Display:25 - debug err 2
+2021-11-23 13:39:41 FATAL Display:26 - fatal err 3
+2021-11-23 13:39:41 ERROR Display:27 - error err 4
+2021-11-23 13:39:41 WARN  Display:28 - warn err 5
+2021-11-23 13:39:41 INFO  Display:32 - 
+1. Display all members
+2021-11-23 13:39:41 INFO  Display:33 - 2. Display members with a particular user code
+2021-11-23 13:39:41 INFO  Display:34 - 3. Display members with preferred location
+2021-11-23 13:39:41 INFO  Display:35 - 4. Display members who has completed maximum jobs.
+2021-11-23 13:39:41 INFO  Display:36 - 5. Write records of remote job
+2021-11-23 13:39:41 INFO  Display:37 - 0. Exit
+2021-11-23 13:39:41 INFO  Display:38 - Enter your choice
+2021-11-23 22:05:26 INFO  Main:9 - Start
+2021-11-23 22:05:26 INFO  MemberApplication:20 - MemberApplication start
+2021-11-23 22:05:26 INFO  ReadFile:27 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-23 22:05:26 INFO  ReadFile:40 - Adding member: cbad123
+2021-11-23 22:05:26 INFO  ReadFile:40 - Adding member: abcd123
+2021-11-23 22:05:26 INFO  ReadFile:40 - Adding member: absh123
+2021-11-23 22:05:26 ERROR ReadMemberExceptions:11 - ReadMemberExceptions Error: Invalid member data at line 3 :  
+2021-11-23 22:05:26 ERROR ReadFile:57 - Error in file: D:\projects\java\maven\Members\members.csv
+Exception Error: Invalid member data at line 3 :  
+2021-11-23 22:05:26 INFO  MemberApplication:32 - members Read done
+2021-11-23 22:05:26 INFO  MemberApplication:33 - Display start
+2021-11-23 22:05:26 INFO  Display:24 - info err 1
+2021-11-23 22:05:26 DEBUG Display:25 - debug err 2
+2021-11-23 22:05:26 FATAL Display:26 - fatal err 3
+2021-11-23 22:05:26 ERROR Display:27 - error err 4
+2021-11-23 22:05:26 WARN  Display:28 - warn err 5
+2021-11-23 22:05:26 INFO  Display:32 - 
+1. Display all members
+2021-11-23 22:05:26 INFO  Display:33 - 2. Display members with a particular user code
+2021-11-23 22:05:26 INFO  Display:34 - 3. Display members with preferred location
+2021-11-23 22:05:26 INFO  Display:35 - 4. Display members who has completed maximum jobs.
+2021-11-23 22:05:26 INFO  Display:36 - 5. Write records of remote job
+2021-11-23 22:05:26 INFO  Display:37 - 0. Exit
+2021-11-23 22:05:26 INFO  Display:38 - Enter your choice
+2021-11-23 22:12:15 INFO  Main:9 - Start
+2021-11-23 22:12:15 INFO  MemberApplication:20 - MemberApplication start
+2021-11-23 22:12:15 INFO  ReadFile:27 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-23 22:12:15 INFO  ReadFile:48 - Adding member: cbad123
+2021-11-23 22:12:15 INFO  ReadFile:48 - Adding member: abcd123
+2021-11-23 22:12:15 INFO  ReadFile:48 - Adding member: absh123
+2021-11-23 22:12:15 INFO  ReadFile:48 - Adding member: jdks123
+2021-11-23 22:12:15 INFO  MemberApplication:32 - members Read done
+2021-11-23 22:12:15 INFO  MemberApplication:33 - Display start
+2021-11-23 22:12:15 INFO  Display:24 - info err 1
+2021-11-23 22:12:15 DEBUG Display:25 - debug err 2
+2021-11-23 22:12:15 FATAL Display:26 - fatal err 3
+2021-11-23 22:12:15 ERROR Display:27 - error err 4
+2021-11-23 22:12:15 WARN  Display:28 - warn err 5
+2021-11-23 22:12:15 INFO  Display:32 - 
+1. Display all members
+2021-11-23 22:12:15 INFO  Display:33 - 2. Display members with a particular user code
+2021-11-23 22:12:15 INFO  Display:34 - 3. Display members with preferred location
+2021-11-23 22:12:15 INFO  Display:35 - 4. Display members who has completed maximum jobs.
+2021-11-23 22:12:15 INFO  Display:36 - 5. Write records of remote job
+2021-11-23 22:12:15 INFO  Display:37 - 0. Exit
+2021-11-23 22:12:15 INFO  Display:38 - Enter your choice
+2021-11-23 22:12:41 INFO  Main:9 - Start
+2021-11-23 22:12:41 INFO  MemberApplication:20 - MemberApplication start
+2021-11-23 22:12:41 INFO  ReadFile:27 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-23 22:12:41 INFO  ReadFile:48 - Adding member: cbad123
+2021-11-23 22:12:41 INFO  ReadFile:48 - Adding member: abcd123
+2021-11-23 22:12:41 INFO  ReadFile:48 - Adding member: absh123
+2021-11-23 22:12:41 INFO  ReadFile:48 - Adding member: jdks123
+2021-11-23 22:12:41 INFO  MemberApplication:32 - members Read done
+2021-11-23 22:12:41 INFO  MemberApplication:33 - Display start
+2021-11-23 22:12:42 INFO  Display:24 - info err 1
+2021-11-23 22:12:42 DEBUG Display:25 - debug err 2
+2021-11-23 22:12:42 FATAL Display:26 - fatal err 3
+2021-11-23 22:12:42 ERROR Display:27 - error err 4
+2021-11-23 22:12:42 WARN  Display:28 - warn err 5
+2021-11-23 22:12:42 INFO  Display:32 - 
+1. Display all members
+2021-11-23 22:12:42 INFO  Display:33 - 2. Display members with a particular user code
+2021-11-23 22:12:42 INFO  Display:34 - 3. Display members with preferred location
+2021-11-23 22:12:42 INFO  Display:35 - 4. Display members who has completed maximum jobs.
+2021-11-23 22:12:42 INFO  Display:36 - 5. Write records of remote job
+2021-11-23 22:12:42 INFO  Display:37 - 0. Exit
+2021-11-23 22:12:42 INFO  Display:38 - Enter your choice
+2021-11-23 22:14:22 INFO  Main:9 - Start
+2021-11-23 22:14:22 INFO  MemberApplication:20 - MemberApplication start
+2021-11-23 22:14:22 INFO  ReadFile:27 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-23 22:14:22 INFO  ReadFile:48 - Adding member: cbad123
+2021-11-23 22:14:22 INFO  ReadFile:48 - Adding member: abcd123
+2021-11-23 22:14:22 INFO  ReadFile:48 - Adding member: absh123
+2021-11-23 22:14:22 INFO  ReadFile:48 - Adding member: jdks123
+2021-11-23 22:14:22 INFO  MemberApplication:32 - members Read done
+2021-11-23 22:14:22 INFO  MemberApplication:33 - Display start
+2021-11-23 22:14:22 INFO  Display:27 - 
+1. Display all members
+2021-11-23 22:14:22 INFO  Display:28 - 2. Display members with a particular user code
+2021-11-23 22:14:22 INFO  Display:29 - 3. Display members with preferred location
+2021-11-23 22:14:22 INFO  Display:30 - 4. Display members who has completed maximum jobs.
+2021-11-23 22:14:22 INFO  Display:31 - 5. Write records of remote job
+2021-11-23 22:14:22 INFO  Display:32 - 0. Exit
+2021-11-23 22:14:22 INFO  Display:33 - Enter your choice
+2021-11-23 22:15:05 INFO  Main:9 - Start
+2021-11-23 22:15:05 INFO  MemberApplication:20 - MemberApplication start
+2021-11-23 22:15:05 INFO  ReadFile:27 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-23 22:15:05 INFO  ReadFile:48 - Adding member: cbad123
+2021-11-23 22:15:05 INFO  ReadFile:48 - Adding member: 
+2021-11-23 22:15:05 INFO  ReadFile:48 - Adding member: absh123
+2021-11-23 22:15:05 INFO  ReadFile:48 - Adding member: jdks123
+2021-11-23 22:15:05 INFO  MemberApplication:32 - members Read done
+2021-11-23 22:15:05 INFO  MemberApplication:33 - Display start
+2021-11-23 22:15:05 INFO  Display:27 - 
+1. Display all members
+2021-11-23 22:15:05 INFO  Display:28 - 2. Display members with a particular user code
+2021-11-23 22:15:05 INFO  Display:29 - 3. Display members with preferred location
+2021-11-23 22:15:05 INFO  Display:30 - 4. Display members who has completed maximum jobs.
+2021-11-23 22:15:05 INFO  Display:31 - 5. Write records of remote job
+2021-11-23 22:15:05 INFO  Display:32 - 0. Exit
+2021-11-23 22:15:05 INFO  Display:33 - Enter your choice
+2021-11-23 22:16:11 INFO  Main:9 - Start
+2021-11-23 22:16:11 INFO  MemberApplication:20 - MemberApplication start
+2021-11-23 22:16:11 INFO  ReadFile:27 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-23 22:16:11 INFO  ReadFile:48 - Adding member: cbad123
+2021-11-23 22:16:11 ERROR ReadMemberExceptions:11 - ReadMemberExceptions Error : Invalid member data length at line 1 : king,2,,false
+2021-11-23 22:16:11 ERROR ReadFile:65 - Error in file: D:\projects\java\maven\Members\members.csv
+Exception Error: Invalid member data length at line 1 : king,2,,false
+2021-11-23 22:16:11 INFO  MemberApplication:32 - members Read done
+2021-11-23 22:16:11 INFO  MemberApplication:33 - Display start
+2021-11-23 22:16:11 INFO  Display:27 - 
+1. Display all members
+2021-11-23 22:16:11 INFO  Display:28 - 2. Display members with a particular user code
+2021-11-23 22:16:11 INFO  Display:29 - 3. Display members with preferred location
+2021-11-23 22:16:11 INFO  Display:30 - 4. Display members who has completed maximum jobs.
+2021-11-23 22:16:11 INFO  Display:31 - 5. Write records of remote job
+2021-11-23 22:16:11 INFO  Display:32 - 0. Exit
+2021-11-23 22:16:11 INFO  Display:33 - Enter your choice
+2021-11-23 22:18:40 INFO  Main:9 - Start
+2021-11-23 22:18:40 INFO  MemberApplication:20 - MemberApplication start
+2021-11-23 22:18:40 INFO  ReadFile:27 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-23 22:18:40 INFO  ReadFile:48 - Adding member: cbad123
+2021-11-23 22:18:40 INFO  ReadFile:48 - Adding member: 
+2021-11-23 22:18:40 INFO  ReadFile:48 - Adding member: absh123
+2021-11-23 22:18:40 INFO  ReadFile:48 - Adding member: jdks123
+2021-11-23 22:18:40 INFO  MemberApplication:32 - members Read done
+2021-11-23 22:18:40 INFO  MemberApplication:33 - Display start
+2021-11-23 22:18:40 INFO  Display:27 - 
+1. Display all members
+2021-11-23 22:18:40 INFO  Display:28 - 2. Display members with a particular user code
+2021-11-23 22:18:40 INFO  Display:29 - 3. Display members with preferred location
+2021-11-23 22:18:40 INFO  Display:30 - 4. Display members who has completed maximum jobs.
+2021-11-23 22:18:40 INFO  Display:31 - 5. Write records of remote job
+2021-11-23 22:18:40 INFO  Display:32 - 0. Exit
+2021-11-23 22:18:40 INFO  Display:33 - Enter your choice
+2021-11-23 22:19:07 INFO  Main:9 - Start
+2021-11-23 22:19:07 INFO  MemberApplication:20 - MemberApplication start
+2021-11-23 22:19:07 INFO  ReadFile:27 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-23 22:19:07 INFO  ReadFile:48 - Adding member: cbad123
+2021-11-23 22:19:07 ERROR ReadMemberExceptions:11 - ReadMemberExceptions Error : Invalid member data length at line 1 : [Ljava.lang.String;@52cc8049
+2021-11-23 22:19:07 ERROR ReadFile:65 - Error in file: D:\projects\java\maven\Members\members.csv
+Exception Error: Invalid member data length at line 1 : [Ljava.lang.String;@52cc8049
+2021-11-23 22:19:07 INFO  MemberApplication:32 - members Read done
+2021-11-23 22:19:07 INFO  MemberApplication:33 - Display start
+2021-11-23 22:19:07 INFO  Display:27 - 
+1. Display all members
+2021-11-23 22:19:07 INFO  Display:28 - 2. Display members with a particular user code
+2021-11-23 22:19:07 INFO  Display:29 - 3. Display members with preferred location
+2021-11-23 22:19:07 INFO  Display:30 - 4. Display members who has completed maximum jobs.
+2021-11-23 22:19:07 INFO  Display:31 - 5. Write records of remote job
+2021-11-23 22:19:07 INFO  Display:32 - 0. Exit
+2021-11-23 22:19:07 INFO  Display:33 - Enter your choice
+2021-11-23 22:19:39 INFO  Main:9 - Start
+2021-11-23 22:19:39 INFO  MemberApplication:20 - MemberApplication start
+2021-11-23 22:19:39 INFO  ReadFile:27 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-23 22:19:39 INFO  ReadFile:48 - Adding member: cbad123
+2021-11-23 22:19:39 ERROR ReadMemberExceptions:11 - ReadMemberExceptions Error : Invalid member data length at line 1 : [Ljava.lang.String;@52cc8049
+2021-11-23 22:19:39 ERROR ReadFile:65 - Error in file: D:\projects\java\maven\Members\members.csv
+Exception Error: Invalid member data length at line 1 : [Ljava.lang.String;@52cc8049
+2021-11-23 22:19:39 INFO  MemberApplication:32 - members Read done
+2021-11-23 22:19:39 INFO  MemberApplication:33 - Display start
+2021-11-23 22:19:39 INFO  Display:27 - 
+1. Display all members
+2021-11-23 22:19:39 INFO  Display:28 - 2. Display members with a particular user code
+2021-11-23 22:19:39 INFO  Display:29 - 3. Display members with preferred location
+2021-11-23 22:19:39 INFO  Display:30 - 4. Display members who has completed maximum jobs.
+2021-11-23 22:19:39 INFO  Display:31 - 5. Write records of remote job
+2021-11-23 22:19:39 INFO  Display:32 - 0. Exit
+2021-11-23 22:19:39 INFO  Display:33 - Enter your choice
+2021-11-23 22:20:33 INFO  Main:9 - Start
+2021-11-23 22:20:33 INFO  MemberApplication:20 - MemberApplication start
+2021-11-23 22:20:33 INFO  ReadFile:28 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-23 22:20:33 INFO  ReadFile:49 - Adding member: cbad123
+2021-11-23 22:20:33 ERROR ReadMemberExceptions:11 - ReadMemberExceptions Error : Invalid member data length at line 1 : java.util.stream.ReferencePipeline$3@30946e09
+2021-11-23 22:20:33 ERROR ReadFile:66 - Error in file: D:\projects\java\maven\Members\members.csv
+Exception Error: Invalid member data length at line 1 : java.util.stream.ReferencePipeline$3@30946e09
+2021-11-23 22:20:33 INFO  MemberApplication:32 - members Read done
+2021-11-23 22:20:33 INFO  MemberApplication:33 - Display start
+2021-11-23 22:20:33 INFO  Display:27 - 
+1. Display all members
+2021-11-23 22:20:33 INFO  Display:28 - 2. Display members with a particular user code
+2021-11-23 22:20:33 INFO  Display:29 - 3. Display members with preferred location
+2021-11-23 22:20:33 INFO  Display:30 - 4. Display members who has completed maximum jobs.
+2021-11-23 22:20:33 INFO  Display:31 - 5. Write records of remote job
+2021-11-23 22:20:33 INFO  Display:32 - 0. Exit
+2021-11-23 22:20:33 INFO  Display:33 - Enter your choice
+2021-11-23 22:21:57 INFO  Main:9 - Start
+2021-11-23 22:21:57 INFO  MemberApplication:20 - MemberApplication start
+2021-11-23 22:21:57 INFO  ReadFile:28 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-23 22:21:57 INFO  ReadFile:49 - Adding member: cbad123
+2021-11-23 22:21:57 ERROR ReadMemberExceptions:11 - ReadMemberExceptions Error : Invalid member data length at line 1 : [king, 2, , false]
+2021-11-23 22:21:57 ERROR ReadFile:66 - Error in file: D:\projects\java\maven\Members\members.csv
+Exception Error: Invalid member data length at line 1 : [king, 2, , false]
+2021-11-23 22:21:57 INFO  MemberApplication:32 - members Read done
+2021-11-23 22:21:57 INFO  MemberApplication:33 - Display start
+2021-11-23 22:21:57 INFO  Display:27 - 
+1. Display all members
+2021-11-23 22:21:57 INFO  Display:28 - 2. Display members with a particular user code
+2021-11-23 22:21:57 INFO  Display:29 - 3. Display members with preferred location
+2021-11-23 22:21:57 INFO  Display:30 - 4. Display members who has completed maximum jobs.
+2021-11-23 22:21:57 INFO  Display:31 - 5. Write records of remote job
+2021-11-23 22:21:57 INFO  Display:32 - 0. Exit
+2021-11-23 22:21:57 INFO  Display:33 - Enter your choice
+2021-11-23 22:22:31 INFO  Main:9 - Start
+2021-11-23 22:22:31 INFO  MemberApplication:20 - MemberApplication start
+2021-11-23 22:22:31 INFO  ReadFile:28 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-23 22:22:31 INFO  ReadFile:49 - Adding member: cbad123
+2021-11-23 22:22:31 INFO  ReadFile:49 - Adding member: 
+2021-11-23 22:22:31 INFO  ReadFile:49 - Adding member: absh123
+2021-11-23 22:22:31 INFO  ReadFile:49 - Adding member: jdks123
+2021-11-23 22:22:31 INFO  MemberApplication:32 - members Read done
+2021-11-23 22:22:31 INFO  MemberApplication:33 - Display start
+2021-11-23 22:22:31 INFO  Display:27 - 
+1. Display all members
+2021-11-23 22:22:31 INFO  Display:28 - 2. Display members with a particular user code
+2021-11-23 22:22:31 INFO  Display:29 - 3. Display members with preferred location
+2021-11-23 22:22:31 INFO  Display:30 - 4. Display members who has completed maximum jobs.
+2021-11-23 22:22:31 INFO  Display:31 - 5. Write records of remote job
+2021-11-23 22:22:31 INFO  Display:32 - 0. Exit
+2021-11-23 22:22:31 INFO  Display:33 - Enter your choice
+2021-11-23 22:23:49 INFO  Main:9 - Start
+2021-11-23 22:23:49 INFO  MemberApplication:20 - MemberApplication start
+2021-11-23 22:23:49 INFO  ReadFile:28 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-23 22:23:49 INFO  ReadFile:49 - Adding member: cbad123
+2021-11-23 22:23:49 INFO  ReadFile:49 - Adding member: 
+2021-11-23 22:23:49 INFO  ReadFile:49 - Adding member: absh123
+2021-11-23 22:23:49 INFO  ReadFile:49 - Adding member: jdks123
+2021-11-23 22:23:49 INFO  MemberApplication:32 - members Read done
+2021-11-23 22:23:49 INFO  MemberApplication:33 - Display start
+2021-11-23 22:23:49 INFO  Display:27 - 
+1. Display all members
+2021-11-23 22:23:49 INFO  Display:28 - 2. Display members with a particular user code
+2021-11-23 22:23:49 INFO  Display:29 - 3. Display members with preferred location
+2021-11-23 22:23:49 INFO  Display:30 - 4. Display members who has completed maximum jobs.
+2021-11-23 22:23:49 INFO  Display:31 - 5. Write records of remote job
+2021-11-23 22:23:49 INFO  Display:32 - 0. Exit
+2021-11-23 22:23:49 INFO  Display:33 - Enter your choice
+2021-11-23 22:25:52 INFO  Main:9 - Start
+2021-11-23 22:25:52 INFO  MemberApplication:20 - MemberApplication start
+2021-11-23 22:25:52 INFO  ReadFile:28 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-23 22:25:52 INFO  ReadFile:50 - Adding member: cbad123
+2021-11-23 22:25:52 INFO  ReadFile:50 - Adding member: 
+2021-11-23 22:25:52 INFO  ReadFile:50 - Adding member: absh123
+2021-11-23 22:25:52 INFO  ReadFile:50 - Adding member: jdks123
+2021-11-23 22:25:52 INFO  MemberApplication:32 - members Read done
+2021-11-23 22:25:52 INFO  MemberApplication:33 - Display start
+2021-11-23 22:25:52 INFO  Display:27 - 
+1. Display all members
+2021-11-23 22:25:52 INFO  Display:28 - 2. Display members with a particular user code
+2021-11-23 22:25:52 INFO  Display:29 - 3. Display members with preferred location
+2021-11-23 22:25:52 INFO  Display:30 - 4. Display members who has completed maximum jobs.
+2021-11-23 22:25:52 INFO  Display:31 - 5. Write records of remote job
+2021-11-23 22:25:52 INFO  Display:32 - 0. Exit
+2021-11-23 22:25:52 INFO  Display:33 - Enter your choice
+2021-11-23 22:26:59 INFO  Main:9 - Start
+2021-11-23 22:26:59 INFO  MemberApplication:20 - MemberApplication start
+2021-11-23 22:26:59 INFO  ReadFile:28 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-23 22:26:59 ERROR ReadMemberExceptions:11 - ReadMemberExceptions Error : Invalid member data at line 0 at position 1 : [cbad123, queen, 5, remote, false]
+2021-11-23 22:26:59 ERROR ReadFile:67 - Error in file: D:\projects\java\maven\Members\members.csv
+Exception Error: Invalid member data at line 0 at position 1 : [cbad123, queen, 5, remote, false]
+2021-11-23 22:26:59 INFO  MemberApplication:32 - members Read done
+2021-11-23 22:26:59 INFO  MemberApplication:33 - Display start
+2021-11-23 22:26:59 INFO  Display:27 - 
+1. Display all members
+2021-11-23 22:26:59 INFO  Display:28 - 2. Display members with a particular user code
+2021-11-23 22:26:59 INFO  Display:29 - 3. Display members with preferred location
+2021-11-23 22:26:59 INFO  Display:30 - 4. Display members who has completed maximum jobs.
+2021-11-23 22:26:59 INFO  Display:31 - 5. Write records of remote job
+2021-11-23 22:26:59 INFO  Display:32 - 0. Exit
+2021-11-23 22:26:59 INFO  Display:33 - Enter your choice
+2021-11-23 22:27:36 INFO  Main:9 - Start
+2021-11-23 22:27:36 INFO  MemberApplication:20 - MemberApplication start
+2021-11-23 22:27:36 INFO  ReadFile:28 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-23 22:27:36 ERROR ReadMemberExceptions:11 - ReadMemberExceptions Error : Invalid member data at line 1 at position 1 : [cbad123, queen, 5, remote, false]
+2021-11-23 22:27:36 ERROR ReadFile:68 - Error in file: D:\projects\java\maven\Members\members.csv
+Exception Error: Invalid member data at line 1 at position 1 : [cbad123, queen, 5, remote, false]
+2021-11-23 22:27:36 INFO  MemberApplication:32 - members Read done
+2021-11-23 22:27:36 INFO  MemberApplication:33 - Display start
+2021-11-23 22:27:36 INFO  Display:27 - 
+1. Display all members
+2021-11-23 22:27:36 INFO  Display:28 - 2. Display members with a particular user code
+2021-11-23 22:27:36 INFO  Display:29 - 3. Display members with preferred location
+2021-11-23 22:27:36 INFO  Display:30 - 4. Display members who has completed maximum jobs.
+2021-11-23 22:27:36 INFO  Display:31 - 5. Write records of remote job
+2021-11-23 22:27:36 INFO  Display:32 - 0. Exit
+2021-11-23 22:27:36 INFO  Display:33 - Enter your choice
+2021-11-23 22:28:09 INFO  Main:9 - Start
+2021-11-23 22:28:09 INFO  MemberApplication:20 - MemberApplication start
+2021-11-23 22:28:09 INFO  ReadFile:28 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-23 22:28:09 ERROR ReadMemberExceptions:11 - ReadMemberExceptions Error : Invalid member data at line 2 at position 1 : [cbad123, queen, 5, remote, false]
+2021-11-23 22:28:09 ERROR ReadFile:68 - Error in file: D:\projects\java\maven\Members\members.csv
+Exception Error: Invalid member data at line 2 at position 1 : [cbad123, queen, 5, remote, false]
+2021-11-23 22:28:09 INFO  MemberApplication:32 - members Read done
+2021-11-23 22:28:09 INFO  MemberApplication:33 - Display start
+2021-11-23 22:28:09 INFO  Display:27 - 
+1. Display all members
+2021-11-23 22:28:09 INFO  Display:28 - 2. Display members with a particular user code
+2021-11-23 22:28:09 INFO  Display:29 - 3. Display members with preferred location
+2021-11-23 22:28:09 INFO  Display:30 - 4. Display members who has completed maximum jobs.
+2021-11-23 22:28:09 INFO  Display:31 - 5. Write records of remote job
+2021-11-23 22:28:09 INFO  Display:32 - 0. Exit
+2021-11-23 22:28:09 INFO  Display:33 - Enter your choice
+2021-11-23 22:28:36 INFO  Main:9 - Start
+2021-11-23 22:28:36 INFO  MemberApplication:20 - MemberApplication start
+2021-11-23 22:28:36 INFO  ReadFile:28 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-23 22:28:36 INFO  ReadFile:51 - Adding member: cbad123
+2021-11-23 22:28:36 INFO  ReadFile:51 - Adding member: 
+2021-11-23 22:28:36 INFO  ReadFile:51 - Adding member: absh123
+2021-11-23 22:28:36 INFO  ReadFile:51 - Adding member: jdks123
+2021-11-23 22:28:36 INFO  MemberApplication:32 - members Read done
+2021-11-23 22:28:36 INFO  MemberApplication:33 - Display start
+2021-11-23 22:28:36 INFO  Display:27 - 
+1. Display all members
+2021-11-23 22:28:36 INFO  Display:28 - 2. Display members with a particular user code
+2021-11-23 22:28:36 INFO  Display:29 - 3. Display members with preferred location
+2021-11-23 22:28:36 INFO  Display:30 - 4. Display members who has completed maximum jobs.
+2021-11-23 22:28:36 INFO  Display:31 - 5. Write records of remote job
+2021-11-23 22:28:36 INFO  Display:32 - 0. Exit
+2021-11-23 22:28:36 INFO  Display:33 - Enter your choice
+2021-11-23 22:28:57 INFO  Main:9 - Start
+2021-11-23 22:28:57 INFO  MemberApplication:20 - MemberApplication start
+2021-11-23 22:28:57 INFO  ReadFile:28 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-23 22:28:57 INFO  ReadFile:51 - Adding member: cbad123
+2021-11-23 22:28:57 INFO  ReadFile:51 - Adding member: 
+2021-11-23 22:28:57 INFO  ReadFile:51 - Adding member: absh123
+2021-11-23 22:28:57 INFO  ReadFile:51 - Adding member: jdks123
+2021-11-23 22:28:57 INFO  MemberApplication:32 - members Read done
+2021-11-23 22:28:57 INFO  MemberApplication:33 - Display start
+2021-11-23 22:28:57 INFO  Display:27 - 
+1. Display all members
+2021-11-23 22:28:57 INFO  Display:28 - 2. Display members with a particular user code
+2021-11-23 22:28:57 INFO  Display:29 - 3. Display members with preferred location
+2021-11-23 22:28:57 INFO  Display:30 - 4. Display members who has completed maximum jobs.
+2021-11-23 22:28:57 INFO  Display:31 - 5. Write records of remote job
+2021-11-23 22:28:57 INFO  Display:32 - 0. Exit
+2021-11-23 22:28:57 INFO  Display:33 - Enter your choice
+2021-11-23 22:29:36 INFO  Main:9 - Start
+2021-11-23 22:29:36 INFO  MemberApplication:20 - MemberApplication start
+2021-11-23 22:29:36 ERROR ReadFile:59 - File not found: \members.csv
+FileNotFoundException Error: \members.csv (The system cannot find the file specified)
+2021-11-23 22:29:36 INFO  MemberApplication:32 - members Read done
+2021-11-23 22:29:36 INFO  MemberApplication:33 - Display start
+2021-11-23 22:29:36 INFO  Display:27 - 
+1. Display all members
+2021-11-23 22:29:36 INFO  Display:28 - 2. Display members with a particular user code
+2021-11-23 22:29:36 INFO  Display:29 - 3. Display members with preferred location
+2021-11-23 22:29:36 INFO  Display:30 - 4. Display members who has completed maximum jobs.
+2021-11-23 22:29:36 INFO  Display:31 - 5. Write records of remote job
+2021-11-23 22:29:36 INFO  Display:32 - 0. Exit
+2021-11-23 22:29:36 INFO  Display:33 - Enter your choice
+2021-11-23 22:29:56 INFO  Main:9 - Start
+2021-11-23 22:29:56 INFO  MemberApplication:20 - MemberApplication start
+2021-11-23 22:29:56 INFO  ReadFile:28 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-23 22:29:56 INFO  ReadFile:51 - Adding member: cbad123
+2021-11-23 22:29:56 INFO  ReadFile:51 - Adding member: 
+2021-11-23 22:29:56 INFO  ReadFile:51 - Adding member: absh123
+2021-11-23 22:29:56 INFO  ReadFile:51 - Adding member: jdks123
+2021-11-23 22:29:56 INFO  MemberApplication:32 - members Read done
+2021-11-23 22:29:56 INFO  MemberApplication:33 - Display start
+2021-11-23 22:29:56 INFO  Display:27 - 
+1. Display all members
+2021-11-23 22:29:56 INFO  Display:28 - 2. Display members with a particular user code
+2021-11-23 22:29:56 INFO  Display:29 - 3. Display members with preferred location
+2021-11-23 22:29:56 INFO  Display:30 - 4. Display members who has completed maximum jobs.
+2021-11-23 22:29:56 INFO  Display:31 - 5. Write records of remote job
+2021-11-23 22:29:56 INFO  Display:32 - 0. Exit
+2021-11-23 22:29:56 INFO  Display:33 - Enter your choice
+2021-11-23 22:32:11 INFO  Main:9 - Start
+2021-11-23 22:32:11 INFO  MemberApplication:20 - MemberApplication start
+2021-11-23 22:32:11 INFO  ReadFile:28 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-23 22:32:11 INFO  ReadFile:51 - Adding member: cbad123
+2021-11-23 22:32:11 INFO  ReadFile:51 - Adding member: 
+2021-11-23 22:32:11 INFO  ReadFile:51 - Adding member: absh123
+2021-11-23 22:32:11 INFO  ReadFile:51 - Adding member: jdks123
+2021-11-23 22:32:11 INFO  MemberApplication:32 - members Read done
+2021-11-23 22:32:11 INFO  MemberApplication:33 - Display start
+2021-11-23 22:32:11 INFO  Display:27 - 
+1. Display all members
+2021-11-23 22:32:11 INFO  Display:28 - 2. Display members with a particular user code
+2021-11-23 22:32:11 INFO  Display:29 - 3. Display members with preferred location
+2021-11-23 22:32:11 INFO  Display:30 - 4. Display members who has completed maximum jobs.
+2021-11-23 22:32:11 INFO  Display:31 - 5. Write records of remote job
+2021-11-23 22:32:11 INFO  Display:32 - 0. Exit
+2021-11-23 22:32:11 INFO  Display:33 - Enter your choice
+2021-11-23 22:32:40 INFO  Main:9 - Start
+2021-11-23 22:32:40 INFO  MemberApplication:20 - MemberApplication start
+2021-11-23 22:32:40 INFO  ReadFile:28 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-23 22:32:40 INFO  ReadFile:51 - Adding member: cbad123
+2021-11-23 22:32:40 INFO  ReadFile:51 - Adding member: 
+2021-11-23 22:32:40 INFO  ReadFile:51 - Adding member: absh123
+2021-11-23 22:32:40 INFO  ReadFile:51 - Adding member: jdks123
+2021-11-23 22:32:40 INFO  MemberApplication:32 - members Read done
+2021-11-23 22:32:40 INFO  MemberApplication:33 - Display start
+2021-11-23 22:32:40 INFO  Display:27 - 
+1. Display all members
+2021-11-23 22:32:40 INFO  Display:28 - 2. Display members with a particular user code
+2021-11-23 22:32:40 INFO  Display:29 - 3. Display members with preferred location
+2021-11-23 22:32:40 INFO  Display:30 - 4. Display members who has completed maximum jobs.
+2021-11-23 22:32:40 INFO  Display:31 - 5. Write records of remote job
+2021-11-23 22:32:40 INFO  Display:32 - 0. Exit
+2021-11-23 22:32:40 INFO  Display:33 - Enter your choice
+2021-11-23 22:37:42 INFO  Main:9 - Start
+2021-11-23 22:37:42 INFO  MemberApplication:20 - MemberApplication start
+2021-11-23 22:37:42 INFO  ReadFile:28 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-23 22:37:42 INFO  ReadFile:52 - Adding member: cbad123
+2021-11-23 22:37:42 INFO  ReadFile:52 - Adding member: 
+2021-11-23 22:37:42 INFO  ReadFile:52 - Adding member: absh123
+2021-11-23 22:37:42 INFO  ReadFile:52 - Adding member: jdks123
+2021-11-23 22:37:42 INFO  MemberApplication:32 - members Read done
+2021-11-23 22:37:42 INFO  MemberApplication:33 - Display start
+2021-11-23 22:37:42 INFO  Display:27 - 
+1. Display all members
+2021-11-23 22:37:42 INFO  Display:28 - 2. Display members with a particular user code
+2021-11-23 22:37:42 INFO  Display:29 - 3. Display members with preferred location
+2021-11-23 22:37:42 INFO  Display:30 - 4. Display members who has completed maximum jobs.
+2021-11-23 22:37:42 INFO  Display:31 - 5. Write records of remote job
+2021-11-23 22:37:42 INFO  Display:32 - 0. Exit
+2021-11-23 22:37:42 INFO  Display:33 - Enter your choice
+2021-11-23 22:38:19 INFO  Main:9 - Start
+2021-11-23 22:38:19 INFO  MemberApplication:20 - MemberApplication start
+2021-11-23 22:38:19 INFO  ReadFile:28 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-23 22:38:19 INFO  ReadFile:52 - Adding member: cbad123
+2021-11-23 22:38:19 INFO  ReadFile:52 - Adding member: 
+2021-11-23 22:38:19 INFO  ReadFile:52 - Adding member: absh123
+2021-11-23 22:38:19 INFO  ReadFile:52 - Adding member: jdks123
+2021-11-23 22:38:19 INFO  MemberApplication:32 - members Read done
+2021-11-23 22:38:19 INFO  MemberApplication:33 - Display start
+2021-11-23 22:38:19 INFO  Display:27 - 
+1. Display all members
+2021-11-23 22:38:19 INFO  Display:28 - 2. Display members with a particular user code
+2021-11-23 22:38:19 INFO  Display:29 - 3. Display members with preferred location
+2021-11-23 22:38:19 INFO  Display:30 - 4. Display members who has completed maximum jobs.
+2021-11-23 22:38:19 INFO  Display:31 - 5. Write records of remote job
+2021-11-23 22:38:19 INFO  Display:32 - 0. Exit
+2021-11-23 22:38:19 INFO  Display:33 - Enter your choice
+2021-11-23 22:39:11 INFO  Main:9 - Start
+2021-11-23 22:39:11 INFO  MemberApplication:20 - MemberApplication start
+2021-11-23 22:39:12 INFO  ReadFile:28 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-23 22:39:12 INFO  ReadFile:53 - Adding member: cbad123
+2021-11-23 22:39:12 INFO  ReadFile:53 - Adding member: 
+2021-11-23 22:39:12 INFO  ReadFile:53 - Adding member: absh123
+2021-11-23 22:39:12 INFO  ReadFile:53 - Adding member: jdks123
+2021-11-23 22:39:12 INFO  MemberApplication:32 - members Read done
+2021-11-23 22:39:12 INFO  MemberApplication:33 - Display start
+2021-11-23 22:39:12 INFO  Display:27 - 
+1. Display all members
+2021-11-23 22:39:12 INFO  Display:28 - 2. Display members with a particular user code
+2021-11-23 22:39:12 INFO  Display:29 - 3. Display members with preferred location
+2021-11-23 22:39:12 INFO  Display:30 - 4. Display members who has completed maximum jobs.
+2021-11-23 22:39:12 INFO  Display:31 - 5. Write records of remote job
+2021-11-23 22:39:12 INFO  Display:32 - 0. Exit
+2021-11-23 22:39:12 INFO  Display:33 - Enter your choice
+2021-11-23 22:39:58 INFO  Main:9 - Start
+2021-11-23 22:39:58 INFO  MemberApplication:20 - MemberApplication start
+2021-11-23 22:39:58 INFO  ReadFile:28 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-23 22:39:58 INFO  ReadFile:53 - Adding member: cbad123
+2021-11-23 22:39:58 INFO  ReadFile:53 - Adding member: 
+2021-11-23 22:39:58 INFO  ReadFile:53 - Adding member: absh123
+2021-11-23 22:39:58 INFO  ReadFile:53 - Adding member: jdks123
+2021-11-23 22:39:58 INFO  MemberApplication:32 - members Read done
+2021-11-23 22:39:58 INFO  MemberApplication:33 - Display start
+2021-11-23 22:39:58 INFO  Display:27 - 
+1. Display all members
+2021-11-23 22:39:58 INFO  Display:28 - 2. Display members with a particular user code
+2021-11-23 22:39:58 INFO  Display:29 - 3. Display members with preferred location
+2021-11-23 22:39:58 INFO  Display:30 - 4. Display members who has completed maximum jobs.
+2021-11-23 22:39:58 INFO  Display:31 - 5. Write records of remote job
+2021-11-23 22:39:58 INFO  Display:32 - 0. Exit
+2021-11-23 22:39:58 INFO  Display:33 - Enter your choice
+2021-11-23 22:40:19 INFO  Main:9 - Start
+2021-11-23 22:40:19 INFO  MemberApplication:20 - MemberApplication start
+2021-11-23 22:40:19 INFO  ReadFile:28 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-23 22:40:19 INFO  ReadFile:53 - Adding member: cbad123
+2021-11-23 22:40:19 INFO  ReadFile:53 - Adding member: 
+2021-11-23 22:40:19 INFO  ReadFile:53 - Adding member: absh123
+2021-11-23 22:40:19 INFO  ReadFile:53 - Adding member: jdks123
+2021-11-23 22:40:19 INFO  MemberApplication:32 - members Read done
+2021-11-23 22:40:19 INFO  MemberApplication:33 - Display start
+2021-11-23 22:40:19 INFO  Display:27 - 
+1. Display all members
+2021-11-23 22:40:19 INFO  Display:28 - 2. Display members with a particular user code
+2021-11-23 22:40:19 INFO  Display:29 - 3. Display members with preferred location
+2021-11-23 22:40:19 INFO  Display:30 - 4. Display members who has completed maximum jobs.
+2021-11-23 22:40:19 INFO  Display:31 - 5. Write records of remote job
+2021-11-23 22:40:19 INFO  Display:32 - 0. Exit
+2021-11-23 22:40:19 INFO  Display:33 - Enter your choice
+2021-11-23 22:41:41 INFO  Main:9 - Start
+2021-11-23 22:41:41 INFO  MemberApplication:20 - MemberApplication start
+2021-11-23 22:41:41 INFO  ReadFile:28 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-23 22:41:41 INFO  ReadFile:53 - Adding member: cbad123
+2021-11-23 22:41:41 INFO  ReadFile:53 - Adding member: 
+2021-11-23 22:41:41 INFO  ReadFile:53 - Adding member: absh123
+2021-11-23 22:41:41 INFO  ReadFile:53 - Adding member: jdks123
+2021-11-23 22:41:41 INFO  MemberApplication:32 - members Read done
+2021-11-23 22:41:41 INFO  MemberApplication:33 - Display start
+2021-11-23 22:41:41 INFO  Display:27 - 
+1. Display all members
+2021-11-23 22:41:41 INFO  Display:28 - 2. Display members with a particular user code
+2021-11-23 22:41:41 INFO  Display:29 - 3. Display members with preferred location
+2021-11-23 22:41:41 INFO  Display:30 - 4. Display members who has completed maximum jobs.
+2021-11-23 22:41:41 INFO  Display:31 - 5. Write records of remote job
+2021-11-23 22:41:41 INFO  Display:32 - 0. Exit
+2021-11-23 22:41:41 INFO  Display:33 - Enter your choice
+2021-11-23 22:42:23 INFO  Main:9 - Start
+2021-11-23 22:42:23 INFO  MemberApplication:20 - MemberApplication start
+2021-11-23 22:42:23 INFO  ReadFile:28 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-23 22:42:23 INFO  ReadFile:53 - Adding member: cbad123
+2021-11-23 22:42:23 INFO  ReadFile:53 - Adding member: 
+2021-11-23 22:42:23 INFO  ReadFile:53 - Adding member: absh123
+2021-11-23 22:42:23 INFO  ReadFile:53 - Adding member: jdks123
+2021-11-23 22:42:23 INFO  MemberApplication:32 - members Read done
+2021-11-23 22:42:23 INFO  MemberApplication:33 - Display start
+2021-11-23 22:42:23 INFO  Display:27 - 
+1. Display all members
+2021-11-23 22:42:23 INFO  Display:28 - 2. Display members with a particular user code
+2021-11-23 22:42:23 INFO  Display:29 - 3. Display members with preferred location
+2021-11-23 22:42:23 INFO  Display:30 - 4. Display members who has completed maximum jobs.
+2021-11-23 22:42:23 INFO  Display:31 - 5. Write records of remote job
+2021-11-23 22:42:23 INFO  Display:32 - 0. Exit
+2021-11-23 22:42:23 INFO  Display:33 - Enter your choice
+2021-11-23 22:42:59 INFO  Main:9 - Start
+2021-11-23 22:42:59 INFO  MemberApplication:20 - MemberApplication start
+2021-11-23 22:42:59 INFO  ReadFile:28 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-23 22:42:59 INFO  ReadFile:53 - Adding member: cbad123
+2021-11-23 22:42:59 ERROR ReadMemberExceptions:11 - ReadMemberExceptions Error : Invalid member data at line 3 at position 1 : [, king, 2, , false]
+2021-11-23 22:42:59 ERROR ReadFile:70 - Error in file: D:\projects\java\maven\Members\members.csv
+Exception Error: Invalid member data at line 3 at position 1 : [, king, 2, , false]
+2021-11-23 22:42:59 INFO  MemberApplication:32 - members Read done
+2021-11-23 22:42:59 INFO  MemberApplication:33 - Display start
+2021-11-23 22:42:59 INFO  Display:27 - 
+1. Display all members
+2021-11-23 22:42:59 INFO  Display:28 - 2. Display members with a particular user code
+2021-11-23 22:42:59 INFO  Display:29 - 3. Display members with preferred location
+2021-11-23 22:42:59 INFO  Display:30 - 4. Display members who has completed maximum jobs.
+2021-11-23 22:42:59 INFO  Display:31 - 5. Write records of remote job
+2021-11-23 22:42:59 INFO  Display:32 - 0. Exit
+2021-11-23 22:42:59 INFO  Display:33 - Enter your choice
+2021-11-23 22:43:18 DEBUG Display:35 - User entered 1
+2021-11-23 22:43:18 INFO  Display:27 - 
+1. Display all members
+2021-11-23 22:43:18 INFO  Display:28 - 2. Display members with a particular user code
+2021-11-23 22:43:18 INFO  Display:29 - 3. Display members with preferred location
+2021-11-23 22:43:18 INFO  Display:30 - 4. Display members who has completed maximum jobs.
+2021-11-23 22:43:18 INFO  Display:31 - 5. Write records of remote job
+2021-11-23 22:43:18 INFO  Display:32 - 0. Exit
+2021-11-23 22:43:18 INFO  Display:33 - Enter your choice
+2021-11-23 22:48:25 INFO  Main:9 - Start
+2021-11-23 22:48:25 INFO  MemberApplication:20 - MemberApplication start
+2021-11-23 22:48:25 INFO  ReadFile:28 - Reading file: D:\projects\java\maven\Members\members.csv
+2021-11-23 22:48:25 INFO  ReadFile:51 - Adding member: cbad123
+2021-11-23 22:48:25 INFO  ReadFile:51 - Adding member: abcd123
+2021-11-23 22:48:25 ERROR ReadMemberExceptions:11 - ReadMemberExceptions Error : Invalid member data at line 4 at position 1 : [, prince, 4, remote, false]
+2021-11-23 22:48:25 ERROR ReadFile:68 - Error in file: D:\projects\java\maven\Members\members.csv
+Exception Error: Invalid member data at line 4 at position 1 : [, prince, 4, remote, false]
+2021-11-23 22:48:25 INFO  MemberApplication:32 - members Read done
+2021-11-23 22:48:25 INFO  MemberApplication:33 - Display start
+2021-11-23 22:48:25 INFO  Display:27 - 
+1. Display all members
+2021-11-23 22:48:25 INFO  Display:28 - 2. Display members with a particular user code
+2021-11-23 22:48:25 INFO  Display:29 - 3. Display members with preferred location
+2021-11-23 22:48:25 INFO  Display:30 - 4. Display members who has completed maximum jobs.
+2021-11-23 22:48:25 INFO  Display:31 - 5. Write records of remote job
+2021-11-23 22:48:25 INFO  Display:32 - 0. Exit
+2021-11-23 22:48:25 INFO  Display:33 - Enter your choice
+2021-11-23 22:48:31 DEBUG Display:35 - User entered 1
+2021-11-23 22:48:31 INFO  Display:27 - 
+1. Display all members
+2021-11-23 22:48:31 INFO  Display:28 - 2. Display members with a particular user code
+2021-11-23 22:48:31 INFO  Display:29 - 3. Display members with preferred location
+2021-11-23 22:48:31 INFO  Display:30 - 4. Display members who has completed maximum jobs.
+2021-11-23 22:48:31 INFO  Display:31 - 5. Write records of remote job
+2021-11-23 22:48:31 INFO  Display:32 - 0. Exit
+2021-11-23 22:48:31 INFO  Display:33 - Enter your choice

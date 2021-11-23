@@ -21,42 +21,47 @@ public class Display {
     }
 
     public void run(){
-        int i = 1;
-        while(i != 0){
-            System.out.println("\n1. Display all members");
-            System.out.println("2. Display members with a particular user code");
-            System.out.println("3. Display members with preferred location");
-            System.out.println("4. Display members who has completed maximum jobs.");
-            System.out.println("5. Write records of remote job");
-            System.out.println("0. Exit");
-            System.out.println("Enter your choice");
-            i = sc.nextInt();
-            log.info("User entered " + i);
-            switch (i) {
-                case 1:
-                    displayMembers();
-                    break;
-                case 2:
-                    getMembersWithUserCode();
-                    break;
-                case 3:
-                    getMembersWithPreferredLocation();
-                    break;
-                case 4:
-                    getMembersWithMaxJobs();
-                    break;
-                case 5:
-                    WriteRecords w = new WriteRecords(members);
-                    w.writeRecords();
-                    break;
-                case 0:
-                    System.exit(0);
-                    break;
-                default:
-                    System.out.println("Please enter a valid choice");
-                    break;
+        try{
+            int i = 1;
+            while(i != 0){
+                log.info("\n1. Display all members");
+                log.info("2. Display members with a particular user code");
+                log.info("3. Display members with preferred location");
+                log.info("4. Display members who has completed maximum jobs.");
+                log.info("5. Write records of remote job");
+                log.info("0. Exit");
+                log.info("Enter your choice");
+                i = sc.nextInt();
+                log.debug("User entered " + i);
+                switch (i) {
+                    case 1:
+                        displayMembers();
+                        break;
+                    case 2:
+                        getMembersWithUserCode();
+                        break;
+                    case 3:
+                        getMembersWithPreferredLocation();
+                        break;
+                    case 4:
+                        getMembersWithMaxJobs();
+                        break;
+                    case 5:
+                        WriteRecords w = new WriteRecords(members);
+                        w.writeRecords();
+                        break;
+                    case 0:
+                        System.out.println("Exiting");
+                        break;
+                    default:
+                        System.out.println("Please enter a valid choice");
+                        break;
+                }
             }
+        }catch(Exception e) {
+            e.printStackTrace();
         }
+
     }
 
     public void displayMembers(){

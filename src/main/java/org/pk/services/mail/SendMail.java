@@ -1,4 +1,4 @@
-package org.pk.util.mail;
+package org.pk.services.mail;
 
 import javax.mail.*;
 import javax.mail.internet.*;

@@ -1,4 +1,4 @@
-package org.pk.util.log;
+package org.pk.services.log;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;

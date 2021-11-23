@@ -20,7 +20,15 @@ public class MemberApplication {
         log.info("MemberApplication start");
         ReadFile readFile = new ReadFile(fileName);
 //        HashMap<String,HashMap<String,Object>> members = readFile.readFile();
-        HashMap<String, MembersDTO> member = readFile.readFile();
+        HashMap<String, MembersDTO> member = null;
+        try {
+            member = readFile.readFile();
+        } catch (Exception e) {
+            System.out.println("Caught the exception");
+
+            // printing the message from InvalidAgeException object
+            System.out.println("Exception occured: " + e);
+        }
         log.info("members Read done");
         log.info("Display start");
         Display d = new Display(member);
